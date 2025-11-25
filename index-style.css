@@ -1,0 +1,29 @@
+body{
+  background: #f1ebeb;
+  font-family: Arial, sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login{
+  background-color:grey;
+  border: 5px;;
+  color: white;
+  padding: 10px 22px;
+  margin: 20px 60px;
+  cursor:pointer;
+  
+
+}
+.form{
+  background: #adaaaa;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+} 
+
+
+
