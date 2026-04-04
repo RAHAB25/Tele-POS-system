@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+
 h1 {
     font-size: 2rem;
 }
@@ -45,20 +46,113 @@ h1 {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+#signup{
+    display:block;
+    background-color:grey;
+    width:50%;
+    border-radius: 8px;
+    border-width: 100px;
+}
+
 
 
 .login {
     background-color: grey;
-    border: 5px;
-    color: white;
-    padding: 10px 22px;
-    margin: 20px 60px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    width:300px;
+    border-radius: 8px;
+    border-width: 100px;
+    display: block;
 }
 
 
-#loginForm {
+.loginForm {
+
+    width: 100%;
+}
+
+#modulesBox{
     width: 320px;
-} 
+
+}
+
+#add{
+    text-align: right;
+    margin-right: 90px;
+
+}
+
+/* POS page*/
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width:60%
+}
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    display:block;
+    width: 150px;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+}
+.checkout{
+    display: block;
+    float:right;
+    margin: 10px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    width:20%;
+}
+#checkout{
+    margin-bottom:60%;
+    margin-top:2px;
+}
+button{
+    color:green;
+}
+
+/* inventory page */
+
+#h1{
+    margin:0 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    padding:20px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 15px;
+}
+.add{
+    display:flex;
+    justify-content:space-between;
+    margin:0 10px;
+}
+.add p{
+    margin-top:0;
+}
+.stock{
+    display:flex;
+
+}
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    padding:10px;
+    margin: 10px;
+}
+
+
 
 
 
